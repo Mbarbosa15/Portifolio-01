@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+/* formataçõa de links */
+
+a {
+    text-decoration: none;
+}
+ a:link, a:visited {
+    color:#f0eee9;
+    
+}
+ a:hover {
+    text-decoration: underline;   
+}
+
+ #cabecalho a:link, #cabecalho a:visited {
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+#cabecalho a:hover {
+    color: #f7b600;
+    background: #fff; 
+}
+/* cabeçalho */
+#cabecalho {
+background-color: #f7b600 ;
+padding: 15px;
+text-align: center;
+}
+    /* layout */
+#logo,#menu {
+    text-align: center;
+    padding: 10px;
+}
+#principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+a:hover {
+    background-position: right bottom;
+    color: #fff; }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    background: url(../Projeto-tecblog/menu.png) no-repeat left bottom;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    text-align: left;
+    
+}
+.postagem {
+    width: 660px;
+    float: left;
+}
+.postagens {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0);
+}
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+/* formatação geral */
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+h2 {
+    color: #f7b600;
+}
+h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 10px;
+}
+
+.branco {
+    color: white;
+}
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.texto-lateral {
+ font-size: 0.9em;
+ padding: 5px;
+ border-bottom: 1px dotted #ccc;
+}

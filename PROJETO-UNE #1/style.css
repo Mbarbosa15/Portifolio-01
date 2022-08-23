@@ -1,0 +1,12 @@
+p{
+    background-color:rgb(255, 252, 240);
+}
+h2{
+    color: rgba(127, 150, 255, 0.829);
+    border-style: double;
+    text-align: center;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+body {
+    background-color: blue;
+}
